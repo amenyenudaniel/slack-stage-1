@@ -8,6 +8,10 @@ body {
 img {
   max-width: 200px;
   border-radius: 50%;
+  animation-name: zoom;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  cursor: pointer;
 }
 
 a {
@@ -21,6 +25,24 @@ a:hover {
 }
 
 p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@keyframes zoom {
+  0% {
+    scale: 0.8;
+  }
+  40% {
+    scale: 1;
+  }
+  70% {
+    scale: 1.1;
+  }
+  80% {
+    scale: 1;
+  }
+  100% {
+    scale: 0.8;
+  }
 }
