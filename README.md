@@ -1,4 +1,4 @@
-# HNGx Program
+# HNGx Program Stage 1
 
 ![Alt text](webImage.png)
 
